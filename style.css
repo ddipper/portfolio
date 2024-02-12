@@ -18,7 +18,22 @@ body {
    height: 100%;
 }
 
+.glass {
+   background: rgba(10, 10, 10, 0.1);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(8px);
+   -webkit-backdrop-filter: blur(8px);
+}
+
 .navigate a {
    color: white;
    font-weight: 300;
+   text-decoration: none;
+   font-size: 25pt;
+}
+
+header h2 {
+   font-weight: normal;
+   font-size: 30pt;
 }
