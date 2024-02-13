@@ -29,7 +29,6 @@ body {
    background-color: #737373;
    }
 
-
 .noise {
    position: fixed;
    z-index: -1;
@@ -164,6 +163,7 @@ header {
 
 .skills {
    position: relative;
+   overflow: hidden;
 }
 
 .skill-btn:nth-child(2) {
@@ -174,22 +174,45 @@ header {
    background: transparent;
    color: #666666;
    text-transform: uppercase;
-   box-shadow: none;
    font-family: 'JetBrains Mono', sans-serif;
    font-size: 25px;
    font-weight: 200;
    border: none;
 }
 
-.code-front {
+.btn-selected {
+   color: white;
+   text-decoration: underline;
+   transition: 1s;
+}
+
+.btn-unselected {
+   color: #666666;
+   text-decoration: none;
+}
+
+.code-selected {
    display: block;
+   opacity: 100%;
+   width: 100%;
+   transition: 1s;
 }
 
-.code-back {
+.code-unselected {
+   height: 0%;
+   opacity: 0;
+   display: absolute;
+   transition: 1s;
+}
+
+.code-unselected p{
    display: none;
 }
 
-.code-others {
-   display: none;
+.ticker-selected {
+   display: flex;
 }
 
+.ticker-unselected {
+   display: none;
+}

@@ -1,9 +1,3 @@
-.wrap {
-   max-width: 600px;
-   margin: auto;
-   padding: 20px;
- }
-
  .ticker {
    position:relative;
    display: flex;
@@ -70,11 +64,4 @@
      transform: translateX(calc(-100%));
    }
  }
- 
- .ticker-back {
-   display: none;
-}
 
-.ticker-front {
-   display: none;
-}

@@ -6,10 +6,13 @@
    <title>ddipperq</title>
    <link rel="icon" href="src/images/icon.png">
    <link rel="stylesheet" href="src/fonts/Gilroy/fonts.css">
-   <script type="text/javascript" src="script.js"></script>
-   <script type="text/javascript" src="src/scripts/buttonHandler.js"></script>
-   <link rel="stylesheet" href="style.css">
+
    <link rel="stylesheet" href="src/css/ticker.css">
+   <link rel="stylesheet" href="style.css">
+
+
+   <script type="text/javascript" src="script.js"></script>
+   <script type="text/javascript" src="src/scripts/slider.js"></script>
 </head>
 
 <body onload="printtext()">
@@ -41,31 +44,31 @@
    <div class="glass content skills">
       <h2>Skills</h2>
       <div class="nav-skills">
-         <button class="skill-btn" onclick="ClickFront()">Front-end</button>
-         <button class="skill-btn">Back-end</button>
-         <button class="skill-btn">Others</button>
+         <button class="skill-btn btn-selected" onclick="clickFront()">Front-end</button>
+         <button class="skill-btn btn-unselected" onclick="clickBack()">Back-end</button>
+         <button class="skill-btn btn-unselected" onclick="clickOthers()">Others</button>
       </div>
 
-      <div class="skill-code code-front">
+      <div class="skill-code code-selected">
          <p class="skill-tab0"><span class="color-code-purple">function</span> <span class="color-code-blue">front</span> <span class="color-code-orange">() {</span></p>
          <p class="skill-tab1"><span class="color-code-purple">return</span> `HTML | CSS</p>
          <p class="skill-tab2">Vue<br>React<br>NextJs<br>React<br>Angular<br>Bootstrap<br>Xml`<span class="color-code-orange">;</span></p>
          <p class="skill-tab0"><span class="color-code-orange">}</span></p>
       </div>      
-      <div class="skill-code code-back">
+      <div class="skill-code code-unselected">
          <p class="skill-tab0"><span class="color-code-purple">static string</span> <span class="color-code-blue">Back</span> <span class="color-code-orange">()<br>{</span></p>
          <p class="skill-tab1"><span class="color-code-purple">return</span> "C#</p>
          <p class="skill-tab2">JavaScript<br>TypeScript<br>C++<br>Java<br>ASP.Net<br>jQuery<br>Node js<br>DiscordJs<br>PostgreSql<br>MySql<br>Sqlite"<span class="color-code-orange">;</span></p>
          <p class="skill-tab0"><span class="color-code-orange">}</span></p>
       </div>
-      <div class="skill-code code-others">
+      <div class="skill-code code-unselected">
          <p class="skill-tab0"><span class="color-code-purple">function</span> <span class="color-code-blue">others</span> <span class="color-code-orange">{</span></p>
          <p class="skill-tab1"><span class="color-code-purple">echo</span> 'Unity</p>
          <p class="skill-tab4">Linux<br>Figma<br>Git<br>Bash<br>Docker<br>NPM<br>GitHub<br>Vercel<br>Visual Studio Code<br>Visual Studio<br>Rider<br>Web Storm’<span class="color-code-purple">;</span></p>
          <p class="skill-tab0"><span class="color-code-orange">}</span></p>
       </div>
 
-      <div class="ticker ticker-front">
+      <div class="ticker ticker-front ticker-selected">
          <div class="items marquee">
             <div class="item"><img src="src/images/ticker/html.png"><h3>HTML</h3></div>
             <div class="item"><img src="src/images/ticker/css.png"><h3>CSS</h3></div>
@@ -87,7 +90,7 @@
             <div class="item"><img src="src/images/ticker/xml.png"><h3>Xml</h3></div>
          </div>
       </div>
-      <div class="ticker ticker-back">
+      <div class="ticker ticker-back ticker-unselected">
          <div class="items marquee">
             <div class="item"><img src="src/images/ticker/cs.png"><h3>C#</h3></div>
             <div class="item"><img src="src/images/ticker/javascript.png"><h3>JavaScript</h3></div>
@@ -117,7 +120,7 @@
             <div class="item"><img src="src/images/ticker/mysql.png"><h3>MySql</h3></div>
          </div>
       </div>
-      <div class="ticker ticker-others">
+      <div class="ticker ticker-others ticker-unselected">
          <div class="items marquee">
             <div class="item"><img src="src/images/ticker/unity.png"><h3>Unity</h3></div>
             <div class="item"><img src="src/images/ticker/figma.png"><h3>Figma</h3></div>
