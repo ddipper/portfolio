@@ -162,6 +162,10 @@ header {
    padding-bottom: 17px;
 }
 
+.skills {
+   position: relative;
+}
+
 .skill-btn:nth-child(2) {
    margin: 0 20px;
 }
