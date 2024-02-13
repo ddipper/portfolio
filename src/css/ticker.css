@@ -50,9 +50,17 @@
    margin-right: 10px;
  }
  
- .marquee {
-   animation: scroll 15s linear infinite;
+ .ticker-front .marquee {
+   animation: scroll 16s linear infinite;
  }
+
+ .ticker-back .marquee {
+   animation: scroll 24s linear infinite;
+}
+
+.ticker-others .marquee {
+   animation: scroll 26s linear infinite;
+}
  
  @keyframes scroll {
    from {
@@ -63,3 +71,10 @@
    }
  }
  
+ .ticker-back {
+   display: none;
+}
+
+.ticker-front {
+   display: none;
+}
