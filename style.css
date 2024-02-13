@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono');
+
 * {
    margin: 0;
    padding: 0;
@@ -19,6 +21,14 @@ body {
    color: white;
    font-family: "Gilroy";
 }
+
+::-moz-selection{
+   background-color: #737373;
+   }
+::selection{
+   background-color: #737373;
+   }
+
 
 .noise {
    position: fixed;
@@ -114,4 +124,67 @@ header {
    font-weight: 200;
    font-size: 25px;
    text-align: justify;
+}
+
+.skill-code {
+   font-family: 'JetBrains Mono', sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   margin-left: 20px;
+   color: #ABB2BF;
+}
+
+.skill-tab1 {
+   margin-left: 20px;
+}
+
+.skill-tab2 {
+   margin-left: 98px;
+}
+
+.skill-tab4 {
+   margin-left: 78px;
+}
+
+.color-code-purple {
+   color: #C678DD;
+}
+
+.color-code-blue {
+   color: #5FAAE8;
+}
+
+.color-code-orange {
+   color: #D17C44;
+}
+
+.nav-skills {
+   padding-bottom: 17px;
+}
+
+.skill-btn:nth-child(2) {
+   margin: 0 20px;
+}
+
+.skill-btn {
+   background: transparent;
+   color: #666666;
+   text-transform: uppercase;
+   box-shadow: none;
+   font-family: 'JetBrains Mono', sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   border: none;
+}
+
+.code-front {
+   display: block;
+}
+
+.code-back {
+   display: none;
+}
+
+.code-others {
+   display: none;
 }
