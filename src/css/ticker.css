@@ -21,7 +21,8 @@
 }
 
 .item {
-   background: #292929;
+   background: #292929e3;
+   border: 1px solid #ffffff10;
    flex: 0 0 auto;
    padding: 2px 13px;
    height: 50px;

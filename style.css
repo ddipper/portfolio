@@ -10,8 +10,6 @@ body {
 
    background-repeat: no-repeat;
    background-size: 100%;
-   
-   height: 2000px;
 
    display: flex;
    flex-direction: column;
@@ -47,6 +45,7 @@ body {
 
 .glass {
    background: rgba(15, 15, 15, 0.15);
+   border: 1px solid #ffffff10;
    /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);*/
    backdrop-filter: blur(8px);
    -webkit-backdrop-filter: blur(8px);
@@ -89,6 +88,7 @@ header {
 .content {
    width: 875px;
    padding: 20px;
+   padding-bottom: 22px;
 }
 
 .hello-head {
@@ -225,3 +225,95 @@ header {
 .ticker-unselected {
    display: none;
 }
+
+.social-links {
+   display: flex;
+   justify-content: space-around;
+}
+
+.social-item a {
+   border: 0px solid #222222;
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   font-size: 27px;
+   border-radius: 5px;
+   display: flex;
+   padding: 10px 15px;
+   gap: 15px;
+   align-items: center;
+}
+
+.social-img {
+   height: 40px;
+   width: 40px;
+   background-size: contain;
+   transition: 0.3s; 
+}
+
+.social-item:nth-child(1) .social-img {
+   background-image: url(src/images/social/github.png);
+}
+
+.social-item:nth-child(2) .social-img {
+   background-image: url(src/images/social/discord.png);
+}
+
+.social-item:nth-child(3) .social-img {
+   background-image: url(src/images/social/boosty.png);
+}
+
+.social-item:nth-child(4) .social-img {
+   background-image: url(src/images/social/linkedin.png);
+}
+
+.contact-links {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.contact-item a {
+   border: 0px solid #222222;
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   font-size: 35px;
+   border-radius: 5px;
+   display: flex;
+   padding: 10px 15px;
+   gap: 15px;
+   align-items: center;
+}
+
+.contact-img {
+   height: 50px;
+   width: 50px;
+   background-size: contain;
+   transition: 0.3s; 
+}
+
+.contact-item:nth-child(1) .contact-img {
+   background-image: url(src/images/social/telegram.png);
+}
+
+.contact-item:nth-child(2) .contact-img {
+   background-image: url(src/images/social/email.png);
+}
+
+.content:has(.contact-links), .content:has(.social-links) {
+   padding-bottom: 10px;
+ }
+
+ footer {
+   padding-bottom: 25px;
+ }
+
+ footer h3 {
+   text-align: center;
+   font-weight: 400;
+   font-size: 15px;
+ }
+
+ footer h3:nth-child(1) {
+   padding-bottom: 10px;
+ }
