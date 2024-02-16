@@ -312,6 +312,10 @@ header {
    padding-bottom: 10px;
 }
 
+.content:has(.contact-links) h2, .content:has(.social-links) h2 {
+   padding-bottom: 0px;
+}
+
 .content:has(.contact-links) {
    margin-bottom: 60px;
 }
@@ -357,7 +361,7 @@ header {
 
 .bg-img:nth-child(3) {
    left: 5%;
-   top: 1075px;
+   top: 1050px;
    height: 375px;
    animation: revrotate 30s linear infinite;
 }
