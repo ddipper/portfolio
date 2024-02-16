@@ -313,7 +313,7 @@ header {
 }
 
 .content:has(.contact-links) h2, .content:has(.social-links) h2 {
-   padding-bottom: 0px;
+   padding-bottom: 5px;
 }
 
 .content:has(.contact-links) {
@@ -361,14 +361,14 @@ header {
 
 .bg-img:nth-child(3) {
    left: 5%;
-   top: 1050px;
+   top: 1025px;
    height: 375px;
    animation: revrotate 30s linear infinite;
 }
 
 .bg-img:nth-child(4) {
    right: 5%;
-   top: 1325px;
+   top: 1300px;
    width: 375px;
    animation: revrotate 30s linear infinite;
 }
