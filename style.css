@@ -338,18 +338,51 @@ header {
 
 .bg-img {
    position: absolute;
+   user-select: none;
+   animation: rotate 30s linear infinite;
 }
 
 .bg-img:nth-child(1) {
-   left: 100px;
+   left: 5%;
+   top: 175px;
+   width: 375px;
+   animation: revrotate 30s linear infinite;
 }
 
 .bg-img:nth-child(2) {
-   right: 100px;
-   top: 100px;
+   right: 5%;
+   top: 525px;
+   height: 375px;
 }
 
 .bg-img:nth-child(3) {
-   right: 75px;
-   top: 600px;
+   left: 5%;
+   top: 1075px;
+   height: 375px;
+   animation: revrotate 30s linear infinite;
+}
+
+.bg-img:nth-child(4) {
+   right: 5%;
+   top: 1325px;
+   width: 375px;
+   animation: revrotate 30s linear infinite;
+}
+
+@keyframes rotate {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+}
+
+@keyframes revrotate {
+   from {
+     transform: rotate(360deg);
+   }
+   to {
+     transform: rotate(0deg);
+   }
 }
