@@ -346,9 +346,11 @@ header {
  }
 
 .bg-img {
+   opacity: 50%;
    position: absolute;
    user-select: none;
    animation: revrotate 180s linear infinite;
+
 }
 
 .bg-img:nth-child(1) {
@@ -372,6 +374,7 @@ header {
 }
 
 footer .bg-img-foot {
+   opacity: 60%;
    position: absolute;
    left: 3%;
    bottom: 0;
@@ -396,3 +399,4 @@ footer .bg-img-foot {
      transform: rotate(0deg);
    }
 }
+
