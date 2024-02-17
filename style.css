@@ -397,6 +397,8 @@ footer .bg-img-foot {
    z-index: -1;
 }
 
+
+
 @keyframes rotate {
    from {
      transform: rotate(0deg);

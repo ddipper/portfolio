@@ -184,7 +184,6 @@
    }
 
    .bg-img {
-      position: center;
       width: 60%;
       overflow: hidden;
    }
@@ -201,7 +200,7 @@
 
    .bg-img:nth-child(3) {
       right: 20%;
-      top: 1150px;
+      top: 1050px;
    }
 
    .nav-skills {
@@ -216,6 +215,10 @@
 
    .content:has(.contact-links) { 
       margin-bottom: 35px;
+   }
+
+   .social-links {
+
    }
 
 }
