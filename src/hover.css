@@ -55,3 +55,7 @@ header a:hover {
    transition: 0.5s;
 
 }
+
+.skill-btn:hover {
+   text-decoration: underline;
+}

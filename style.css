@@ -27,12 +27,13 @@ body {
 
 ::-webkit-scrollbar {
    width: 10px;
-   background: #272727;
+   background: #222222;
+   
 
 }
 
 ::-webkit-scrollbar-thumb {
-   background: rgba(15, 15, 15, 0.15);
+   background: #262626;
    border: 1px solid #ffffff10;
    border-radius: 1px;
    backdrop-filter: blur(8px);
@@ -78,9 +79,10 @@ body {
 }
 
 .navigate {
-   width: 40%;
+   width: 350px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   align-items: center;
 }
 
 header h2 {
@@ -94,7 +96,7 @@ header {
    width: 100%;
    padding: 16px 0;
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
    z-index: 2;
 }
 
@@ -364,26 +366,24 @@ header {
    position: absolute;
    user-select: none;
    animation: revrotate 180s linear infinite;
+   width: 375px;
 
 }
 
 .bg-img:nth-child(1) {
    right: 100px;
    top: 150px;
-   height: 375px;
    animation: rotate 180s linear infinite;
 }
 
 .bg-img:nth-child(2) {
    left: 10%;
    top: 600px;
-   height: 375px;
 }
 
 .bg-img:nth-child(3) {
    right: 10%;
    top: 1100px;
-   width: 375px;
    animation: rotate 180s linear infinite;
 }
 
@@ -394,6 +394,7 @@ footer .bg-img-foot {
    bottom: 0;
    width: 375px;
    animation: none;
+   z-index: -1;
 }
 
 @keyframes rotate {

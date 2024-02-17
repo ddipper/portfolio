@@ -1,0 +1,221 @@
+@media all and (min-width: 950px) and (max-width: 1050px) {
+   .header-content{
+      justify-content: space-evenly;
+   }
+
+   header a{
+      height: 30px;
+   }
+
+   .bg-img-foot {
+      display: none;
+   }
+}
+
+@media all and (max-width: 950px) and (min-width: 650px) {
+   .header-content{
+      justify-content: space-evenly;
+   }
+
+   .content {
+      width: 90%;
+   }
+
+   .bg-img-foot {
+      display: none;
+   }
+
+   .hello h1 {
+      font-size: 38px;
+   }
+
+   .hello h1 span {
+      font-size: 23px;
+   }
+
+   .hello h3 {
+      font-size: 33px;
+   }
+
+   .hello-head img {
+      width: 42px;
+   }
+
+   .content h2 {
+      font-size: 42px;
+   }
+
+   .content h4 {
+      font-size: 23px;
+   }
+
+   .skill-btn {
+      font-size: 23px;
+   }
+
+   .skill-code {
+      font-size: 15px;
+   }
+
+   .item {
+      height: 45px;
+   }
+
+   .item img {
+      height: 33px;
+   }
+
+   .item h3 {
+      font-size: 16px;
+   }
+
+   .social-item a, .contact-item a {
+      font-size: 25px;
+   }
+
+   .social-img, .contact-img {
+      width: 35px;
+      height: 35px;
+   }
+
+   .social-links {
+      flex-wrap: wrap;
+   }
+
+   footer h3 {
+      font-size: 13px;
+   }
+}
+
+@media all and (max-width: 650px) {
+   .navigate {
+      display: none;
+   }
+
+   .header-content{
+      justify-content: space-evenly;
+   }
+
+   .content {
+      width: 90%;
+      padding: 3%;
+   }
+
+   .bg-img-foot {
+      display: none;
+   }
+
+   .hello {
+      text-align: center;
+      margin-top: 118px;
+   }
+
+   .hello h1 {
+      width: 100%;
+      text-align: center;
+      font-size: 36px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .hello h1 span {
+      font-size: 21px;
+   }
+
+   .hello h3 {
+      font-size: 31px;
+   }
+
+   .hello-head a {
+      display: none;
+   }
+
+   header h2 {
+      font-size: 26px;
+   }
+
+   .content h2 {
+      font-size: 40px;
+   }
+
+   .content h4 {
+      font-size: 20px;
+   }
+
+   .skill-btn {
+      font-size: 21px;
+   }
+
+   .skill-code {
+      font-size: 14px;
+   }
+
+   .item {
+      height: 40px;
+   }
+
+   .item img {
+      height: 30px;
+   }
+
+   .item h3 {
+      font-size: 14px;
+   }
+
+   .social-item a, .contact-item a {
+      font-size: 23px;
+   }
+
+   .social-img, .contact-img {
+      width: 30px;
+      height: 30px;
+   }
+
+   .social-links {
+      flex-wrap: wrap;
+   }
+
+   footer h3 {
+      font-size: 12px;
+   }
+
+   .content {
+      margin-bottom: 50px;
+   }
+
+   .bg-img {
+      position: center;
+      width: 60%;
+      overflow: hidden;
+   }
+
+   .bg-img:nth-child(1) {
+      right: 15%;
+      top: 80px
+   }
+
+   .bg-img:nth-child(2) {
+      left: 10%;
+      top: 450px;
+   }
+
+   .bg-img:nth-child(3) {
+      right: 20%;
+      top: 1150px;
+   }
+
+   .nav-skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .skill-btn:nth-child(2) {
+      margin: 0;
+   }
+
+   .content:has(.contact-links) { 
+      margin-bottom: 35px;
+   }
+
+}
