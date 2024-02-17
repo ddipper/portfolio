@@ -49,3 +49,9 @@
    background-image: url(images/social/email-colored.png);
    transition: 0.5s;
 }
+
+header a:hover {
+   text-decoration: underline;
+   transition: 0.5s;
+
+}
