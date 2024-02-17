@@ -355,7 +355,7 @@ header {
    right: 100px;
    top: 150px;
    height: 375px;
-   animation: rotate 10s linear infinite;
+   animation: rotate 180s linear infinite;
 }
 
 .bg-img:nth-child(2) {
