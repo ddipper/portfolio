@@ -348,14 +348,14 @@ header {
 .bg-img {
    position: absolute;
    user-select: none;
-   animation: rotate 30s linear infinite;
+   animation: revrotate 30s linear infinite;
 }
 
 .bg-img:nth-child(1) {
    right: 9%;
    top: 150px;
    width: 375px;
-   animation: revrotate 30s linear infinite;
+   animation: rotate 30s linear infinite;
 }
 
 .bg-img:nth-child(2) {
@@ -368,7 +368,7 @@ header {
    right: 5%;
    top: 1100px;
    width: 375px;
-   animation: revrotate 30s linear infinite;
+   animation: rotate 30s linear infinite;
 }
 
 footer .bg-img-foot {
