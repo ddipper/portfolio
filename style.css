@@ -18,6 +18,8 @@ body {
    align-items: center;
    /*gap: 100px;*/
 
+
+
    color: white;
    font-family: "Gilroy";
 
@@ -322,6 +324,8 @@ header {
 
  footer {
    padding-bottom: 25px;
+   position: relative;
+   width: 100%;
  }
 
  footer h3 {
@@ -338,6 +342,7 @@ header {
    position: absolute;
    height: 100%;
    width: 100%;
+   
  }
 
 .bg-img {
@@ -347,30 +352,31 @@ header {
 }
 
 .bg-img:nth-child(1) {
-   left: 5%;
-   top: 175px;
+   right: 9%;
+   top: 150px;
    width: 375px;
    animation: revrotate 30s linear infinite;
 }
 
 .bg-img:nth-child(2) {
-   right: 5%;
-   top: 525px;
+   left: 3%;
+   top: 600px;
    height: 375px;
 }
 
 .bg-img:nth-child(3) {
-   left: 5%;
-   top: 1025px;
-   height: 375px;
+   right: 5%;
+   top: 1100px;
+   width: 375px;
    animation: revrotate 30s linear infinite;
 }
 
-.bg-img:nth-child(4) {
-   right: 5%;
-   top: 1300px;
+footer .bg-img-foot {
+   position: absolute;
+   left: 3%;
+   bottom: 0;
    width: 375px;
-   animation: revrotate 30s linear infinite;
+   animation: none;
 }
 
 @keyframes rotate {
