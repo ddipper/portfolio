@@ -96,6 +96,7 @@
 
    .header-content{
       justify-content: space-evenly;
+      width: 100%;
    }
 
    .content {
@@ -109,7 +110,7 @@
 
    .hello {
       text-align: center;
-      margin-top: 118px;
+      margin-top: 50px;
    }
 
    .hello h1 {
@@ -192,7 +193,6 @@
 
    .bg-img {
       width: 60%;
-      overflow: hidden;
    }
 
    .bg-img:nth-child(1) {
@@ -224,8 +224,8 @@
       margin-bottom: 35px;
    }
 
-   .social-links {
-
+   header {
+      position: relative;
    }
 
 }
