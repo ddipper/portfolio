@@ -1,61 +1,65 @@
-.btn-unselected:hover {
-   cursor: pointer;
-}
+@media screen and (min-width: 650px) {
 
-.social-item a:hover {
-   background: #292929e3;
-   box-sizing: border-box;
-   border: 0px solid #00000010;
-   text-decoration: underline;
-   transition: 0.5s;
+   .btn-unselected:hover {
+      cursor: pointer;
+   }
 
-}
+   .social-item a:hover {
+      background: #292929e3;
+      box-sizing: border-box;
+      border: 0px solid #00000010;
+      text-decoration: underline;
+      transition: 0.5s;
 
-.social-item:nth-child(1):hover .social-img {
-   background-image: url(images/social/github-colored.png);
-   transition: 0.5s;
-}
+   }
 
-.social-item:nth-child(2):hover .social-img {
-   background-image: url(images/social/discord-colored.png);
-   transition: 0.5s;
-}
+   .social-item:nth-child(1):hover .social-img {
+      background-image: url(images/social/github-colored.png);
+      transition: 0.5s;
+   }
 
-.social-item:nth-child(3):hover .social-img {
-   background-image: url(images/social/boosty-colored.png);
-   transition: 0.5s;
-}
+   .social-item:nth-child(2):hover .social-img {
+      background-image: url(images/social/discord-colored.png);
+      transition: 0.5s;
+   }
 
-.social-item:nth-child(4):hover .social-img {
-   background-image: url(images/social/linkedin-colored.png);
-   transition: 0.5s;
-}
+   .social-item:nth-child(3):hover .social-img {
+      background-image: url(images/social/boosty-colored.png);
+      transition: 0.5s;
+   }
 
-.contact-item a:hover {
-   background: #292929e3;
-   box-sizing: border-box;
-   border: 0px solid #00000010;
-   text-decoration: underline;
-   transition: 0.5s;
+   .social-item:nth-child(4):hover .social-img {
+      background-image: url(images/social/linkedin-colored.png);
+      transition: 0.5s;
+   }
 
-}
+   .contact-item a:hover {
+      background: #292929e3;
+      box-sizing: border-box;
+      border: 0px solid #00000010;
+      text-decoration: underline;
+      transition: 0.5s;
 
-.contact-item:nth-child(1):hover .contact-img {
-   background-image: url(images/social/telegram-colored.png);
-   transition: 0.5s;
-}
+   }
 
-.contact-item:nth-child(2):hover .contact-img {
-   background-image: url(images/social/email-colored.png);
-   transition: 0.5s;
-}
+   .contact-item:nth-child(1):hover .contact-img {
+      background-image: url(images/social/telegram-colored.png);
+      transition: 0.5s;
+   }
 
-header a:hover {
-   text-decoration: underline;
-   transition: 0.5s;
+   .contact-item:nth-child(2):hover .contact-img {
+      background-image: url(images/social/email-colored.png);
+      transition: 0.5s;
+   }
 
-}
+   header a:hover {
+      text-decoration: underline;
+      transition: 0.5s;
 
-.skill-btn:hover {
-   text-decoration: underline;
+   }
+
+   .skill-btn:hover {
+      text-decoration: underline;
+   }
+
 }

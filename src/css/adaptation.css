@@ -228,4 +228,16 @@
       position: relative;
    }
 
+   .skill-tab2 {
+      margin-left: 87px;
+   }
+
+   .skill-tab4 {
+      margin-left: 70px;
+   }
+
+   .social-item:click .social-img {
+      background-image: url(images/social/github-colored.png);
+      transition: 0.5s;
+   }
 }
