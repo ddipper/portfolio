@@ -16,10 +16,17 @@
    <script type="text/javascript" src="script.js"></script>
    <script type="text/javascript" src="src/scripts/slider.js"></script>
    
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
    <base target="_blank">
 </head>
 
 <body>
+   <script>
+      AOS.init();
+    </script>
+
    <img src="src/images/Noise.png" class="noise">
    <!--<img src="src/images/buildings-1867550_1920.jpg" class="background">-->
    <div class="bg-elements">
@@ -30,7 +37,7 @@
    </div>
 
 
-   <header class="glass head">
+   <header class="glass head" data-aos="fade-down">
       <div class="header-content">
          <h2>ddipperq</h2>
 
@@ -42,17 +49,17 @@
       </div>
    </header>
 
-   <div class="glass content hello" id="about">
+   <div class="glass content hello" id="about" data-aos="fade-up">
       <div class="hello-head"><h1>Hey, I'm Dmitry <span>aka ddipperq</span></h1> <a href="https://github.com/ddipper"><img src="src/images/social/github.png"></a></div>
       <h3 >I'm back-end developer located in Belarus</h3>
    </div>
 
-   <div class="glass content aboutme" id="skills">
+   <div class="glass content aboutme" id="skills" data-aos="fade-up">
       <h2>About me</h2>
       <h4>I work with C#, JavaScript, TypeScript. But that's not all - I also had some experience with Java and C++ to make learning more fun. My days are spent writing code, debugging and having fun solving problems, as well as constantly learning and exploring new things.</h4>
    </div>
 
-   <div class="glass content skills">
+   <div class="glass content skills" data-aos="fade-up">
       <h2>Skills</h2>
       <div class="nav-skills">
          <button class="skill-btn btn-selected" onclick="clickFront()">Front-end</button>
@@ -165,7 +172,7 @@
       </div>
    </div>
 
-   <div class="glass content">
+   <div class="glass content" data-aos="fade-up">
       <h2>Socials</h2>
       <div class="social-links">
          <div class="social-item"><a href="https://github.com/ddipper"><div class="social-img"></div>Github</a></div>
@@ -175,7 +182,7 @@
       </div>
    </div>
 
-   <div class="glass content" id="contact">
+   <div class="glass content" id="contact" data-aos="fade-up">
       <h2>Contact me</h2>
          <div class="contact-links">
             <div class="contact-item"><a href="https://t.me/ddipperq"><div class="contact-img"></div>Telegram</a></div>
@@ -184,7 +191,7 @@
    </div>
 
    <footer>
-      <img class="bg-img-foot" src="src/images/bg/city.png">
+      <img class="bg-img-foot" src="src/images/bg/city.png" >
       <h3>Designed by ddipperq & kolumd21</h3>
       <h3>© 2024 ddipperq</h3>
    </footer>

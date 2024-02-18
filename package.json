@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Website portfolio by ddipperq",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ddipper.github.io/portfolio/"
+  },
+  "author": "ddipperq",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
