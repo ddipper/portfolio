@@ -102,6 +102,8 @@ header {
 
 .head {
    border-top: none;
+   border-left: none;
+   border-right: none;
 }
 
 .header-content {

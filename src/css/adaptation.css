@@ -224,8 +224,10 @@
       margin-bottom: 35px;
    }
 
-   header {
+   .head {
       position: relative;
+      border-left: none;
+      border-right: none;
    }
 
    .skill-tab2 {
